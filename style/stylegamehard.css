@@ -1,0 +1,44 @@
+html, body {
+  background: #e6d670;
+  padding: 400;
+  margin: 400;
+  text-aling: center;
+}
+border-top: none;{
+  
+}
+.container,img {
+  width: 96.7vw;
+  display: inline-center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  min-width; 100px;
+  width: 88vw;
+  height: 28vh;
+  padding:  50px;
+  color: yellow;
+  font-family: verdana;
+  font-size: 25px;
+  text-shadow: 5px 5px 6px black;
+  background-image: URL("../images/game.jpg");
+  border: 6px solid yellow;
+  text-align: center;
+}
+.hiPlayer {
+  opacity: 0.3;
+  text-align: right;
+  color: #ebebeb;
+  font-size: 15px;
+  font-family: 
+}
+.pregunta{
+  min-width:100px;
+  width: 88vw;
+  height: 25vh;
+  padding: 50px;
+  background: #7f9f1d;
+  color: pink
+}

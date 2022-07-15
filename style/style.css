@@ -1,0 +1,37 @@
+/* esto es el estilo de index.html*/
+html, body {
+  height: 95vh;
+  width: 97vw;
+  background: #000000;
+  padding: 400;
+  margin: 400;
+  text-align: center;
+}
+.container,img {
+  width: 90%;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid yellow;
+  background-image: URL("../images/welcome.jpg");
+}
+.title { 
+  min-width; 200px;
+  width: 70%;
+  padding:  10px;
+  color: yellow;
+  font-family: verdana;
+  font-size: 25px;
+  text-shadow: 5px 5px 6px black;
+}
+.hello {
+  min-width; 100px;
+  width: 70%;
+  padding:  10px;
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+  text-shadow: 5px 5px 6px black;
+}
