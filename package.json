@@ -1,0 +1,29 @@
+{
+  "name": "trivia",
+  "version": "1.0.0",
+  "description": "Trivia game where you can answer questions choosing from list and at the end obtain the score.",
+  "main": "index.js",
+  "scripts": {
+    "htmlhint": "htmlhint src/*.html test/*.html",
+    "eslint": "eslint --ext .js src/ test/",
+    "pretest": "npm run eslint && npm run htmlhint",
+    "start": "npx serve",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laladiaz/PA-MX013-trivia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laladiaz/PA-MX013-trivia/issues"
+  },
+  "homepage": "https://github.com/laladiaz/PA-MX013-trivia#readme",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "gh-pages": "^5.0.0",
+    "htmlhint": "^1.1.4"
+  }
+}

@@ -2,11 +2,9 @@ html, body {
   background: #e6d670;
   padding: 400;
   margin: 400;
-  text-aling: center;
+  text-align: center;
 }
-border-top: none;{
-  
-}
+
 .container,img {
   width: 96.7vw;
   display: inline-center;
@@ -15,7 +13,7 @@ border-top: none;{
   align-items: center;
 }
 .header {
-  min-width; 100px;
+  min-width: 100px;
   width: 88vw;
   height: 28vh;
   padding:  50px;
@@ -32,7 +30,6 @@ border-top: none;{
   text-align: right;
   color: #ebebeb;
   font-size: 15px;
-  font-family: 
 }
 .pregunta{
   min-width:100px;

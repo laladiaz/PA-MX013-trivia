@@ -18,7 +18,7 @@ html, body {
   background-image: URL("../images/welcome.jpg");
 }
 .title { 
-  min-width; 200px;
+  min-width: 200px;
   width: 70%;
   padding:  10px;
   color: yellow;
@@ -27,7 +27,7 @@ html, body {
   text-shadow: 5px 5px 6px black;
 }
 .hello {
-  min-width; 100px;
+  min-width: 100px;
   width: 70%;
   padding:  10px;
   color: white;
