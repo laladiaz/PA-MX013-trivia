@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="style/stylegameeasy.css" rel="stylesheet" type="text/css" />
+  <title>Trivia de Peliculas</title>
+</head>
+
+<body>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/appgameeasy.js"></script>
+  
+  <div class="container">
+    <div class="header">
+  <h1>Trivia de Peliculas</h1>
+      <div class="hiPlayer">
+  <h2 id="saludo2">Bienvenida</h2>
+      </div>
+    </div>
+    
+    <div id="resultado">
+      <h3>Tu resultado es: </h3>
+    </div>
+    
+  <form name="triviaEasy" onsubmit="return verificarRespuestaE()">
+    
+      <h2>Cual fue la primera pelicula de Disney?</h2>
+<br>       
+        <input type="radio" name="p1" value="a"> Cenicienta</input>
+<br>
+        <input type="radio" name="p1" value="b"> Blancanieves</input>
+<br>
+        <input type="radio"  name="p1" value="c"> La Bella Durmiente</input>
+
+<br><br>
+    <h2>Cual fue el primer largometraje de Pixar?</h2>
+<br>
+        <input type="radio" name="p2" value="a"> Toy Story</input>
+      <br>
+        <input type="radio" name="p2" value="b"> Cars</input>
+<br>
+        <input type="radio" name="p2" value="c"> Los Increibles</input>
+
+<br><br>
+    <h2>Quien fue el papá de Simba?</h2>
+<br>
+        <input type="radio" name="p3" value="a">Rafiki</input>
+<br>
+        <input type="radio" name="p3" value="b">Scar</input>
+      <br>
+        <input type="radio" name="p3" value="c">Mufasa</input>
+    
+<br><br>
+    <input type="submit" value="Enviar">
+  </form>
+    
+  <button id="back" onclick="location.href='index.html'">Comenzar de nuevo!</button>
+  </div>
+</body>
+
+</html>
+
