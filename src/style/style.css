@@ -35,3 +35,18 @@ html, body {
   font-size: 20px;
   text-shadow: 5px 5px 6px black;
 }
+#easy,
+#hard{
+  border:none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #877dd6;
+}
+
+#easy:hover,
+#hard:hover{
+  background-color: #4CAF50;
+  }
