@@ -1,6 +1,6 @@
 # TRIVIA PROJECT
 
-not responsive.
+not responsive: desktop
 
 ## The Website
 
